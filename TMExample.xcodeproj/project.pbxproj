@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F9D0A359C8DC0CF8FA651BF /* libPods-TMExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F498C4856EC99D5489B3C529 /* libPods-TMExample.a */; };
 		CB3CB83A1CEC5D410077A4E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3CB8391CEC5D410077A4E3 /* main.m */; };
 		CB3CB83D1CEC5D410077A4E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3CB83C1CEC5D410077A4E3 /* AppDelegate.m */; };
 		CB3CB8401CEC5D410077A4E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3CB83F1CEC5D410077A4E3 /* ViewController.m */; };
@@ -18,6 +19,7 @@
 		CB3CB86C1CEC5D830077A4E3 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3CB86B1CEC5D830077A4E3 /* FBSDKCoreKit.framework */; };
 		CB3CB86E1CEC5D9E0077A4E3 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3CB86D1CEC5D9E0077A4E3 /* FBSDKLoginKit.framework */; };
 		CB3CB8701CEC5DA90077A4E3 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB3CB86F1CEC5DA90077A4E3 /* FBSDKShareKit.framework */; };
+		CB6EFD0C1CEC65A70039D8B1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB6EFD0B1CEC65A70039D8B1 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C893515E1EE97FF7FEFCA68 /* Pods-TMExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TMExample/Pods-TMExample.debug.xcconfig"; sourceTree = "<group>"; };
+		8C8B43D32B2BAB25853BC18C /* Pods-TMExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-TMExample/Pods-TMExample.release.xcconfig"; sourceTree = "<group>"; };
 		CB3CB8351CEC5D410077A4E3 /* TMExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB3CB8391CEC5D410077A4E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CB3CB83B1CEC5D410077A4E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 		CB3CB86B1CEC5D830077A4E3 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		CB3CB86D1CEC5D9E0077A4E3 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		CB3CB86F1CEC5DA90077A4E3 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		CB6EFD0B1CEC65A70039D8B1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F498C4856EC99D5489B3C529 /* libPods-TMExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TMExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,7 @@
 				CB3CB86E1CEC5D9E0077A4E3 /* FBSDKLoginKit.framework in Frameworks */,
 				CB3CB86C1CEC5D830077A4E3 /* FBSDKCoreKit.framework in Frameworks */,
 				CB3CB8701CEC5DA90077A4E3 /* FBSDKShareKit.framework in Frameworks */,
+				9F9D0A359C8DC0CF8FA651BF /* libPods-TMExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +94,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		436F35A3976A24EA243EDDFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C893515E1EE97FF7FEFCA68 /* Pods-TMExample.debug.xcconfig */,
+				8C8B43D32B2BAB25853BC18C /* Pods-TMExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CB3CB82C1CEC5D410077A4E3 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +111,7 @@
 				CB3CB8511CEC5D410077A4E3 /* TMExampleTests */,
 				CB3CB85C1CEC5D410077A4E3 /* TMExampleUITests */,
 				CB3CB8361CEC5D410077A4E3 /* Products */,
+				436F35A3976A24EA243EDDFE /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +128,7 @@
 		CB3CB8371CEC5D410077A4E3 /* TMExample */ = {
 			isa = PBXGroup;
 			children = (
+				CB6EFD0B1CEC65A70039D8B1 /* GoogleService-Info.plist */,
 				CB3CB83B1CEC5D410077A4E3 /* AppDelegate.h */,
 				CB3CB83C1CEC5D410077A4E3 /* AppDelegate.m */,
 				CB3CB83E1CEC5D410077A4E3 /* ViewController.h */,
@@ -156,6 +174,7 @@
 				CB3CB86F1CEC5DA90077A4E3 /* FBSDKShareKit.framework */,
 				CB3CB86D1CEC5D9E0077A4E3 /* FBSDKLoginKit.framework */,
 				CB3CB86B1CEC5D830077A4E3 /* FBSDKCoreKit.framework */,
+				F498C4856EC99D5489B3C529 /* libPods-TMExample.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -167,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CB3CB8621CEC5D410077A4E3 /* Build configuration list for PBXNativeTarget "TMExample" */;
 			buildPhases = (
+				8D0A1B1E274939136F5D12BC /* Check Pods Manifest.lock */,
 				CB3CB8311CEC5D410077A4E3 /* Sources */,
 				CB3CB8321CEC5D410077A4E3 /* Frameworks */,
 				CB3CB8331CEC5D410077A4E3 /* Resources */,
+				BC3AAF2BB2F33DC728A8EFB6 /* Embed Pods Frameworks */,
+				2A9090A4508EB58D94F41687 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB3CB8481CEC5D410077A4E3 /* LaunchScreen.storyboard in Resources */,
+				CB6EFD0C1CEC65A70039D8B1 /* GoogleService-Info.plist in Resources */,
 				CB3CB8451CEC5D410077A4E3 /* Assets.xcassets in Resources */,
 				CB3CB8431CEC5D410077A4E3 /* Main.storyboard in Resources */,
 			);
@@ -284,6 +307,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A9090A4508EB58D94F41687 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TMExample/Pods-TMExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D0A1B1E274939136F5D12BC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BC3AAF2BB2F33DC728A8EFB6 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TMExample/Pods-TMExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CB3CB8311CEC5D410077A4E3 /* Sources */ = {
@@ -431,6 +502,7 @@
 		};
 		CB3CB8631CEC5D410077A4E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C893515E1EE97FF7FEFCA68 /* Pods-TMExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: CAT VIET SOFTWARE DEVELOPMENT & MEDIA JSC (8MF2MUNWZZ)";
@@ -449,6 +521,7 @@
 		};
 		CB3CB8641CEC5D410077A4E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C8B43D32B2BAB25853BC18C /* Pods-TMExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: CAT VIET SOFTWARE DEVELOPMENT & MEDIA JSC (8MF2MUNWZZ)";
@@ -532,6 +605,7 @@
 				CB3CB8641CEC5D410077A4E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB3CB8651CEC5D410077A4E3 /* Build configuration list for PBXNativeTarget "TMExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +614,7 @@
 				CB3CB8671CEC5D410077A4E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB3CB8681CEC5D410077A4E3 /* Build configuration list for PBXNativeTarget "TMExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +623,7 @@
 				CB3CB86A1CEC5D410077A4E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
